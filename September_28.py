@@ -7,17 +7,17 @@ svoris = 4
 
 print(f'Gyvūnas - {pavadinimas} ({amzius}m) turi {kailio_spalva} kailio spalvą ir sveria {svoris} kg.')
 
-# 2. zodzio apvertimas
+# 2. Zodzio apvertimas
 
 desserts = 'desserts'[::-1]
 print(desserts)
 
-# 3. Tikrinimas vertes (sita uzduotis man iki galo neliko aiski)
+# 3. Tikrinam vertes 
 
 needle = 'racecar'
 haystack = 'The racecar is fast, but can it outrun a palindrome?'
 
-print(haystack.find(needle))
+print(needle in haystack)
 
 # 4. Kintamuju sudejimas
 
